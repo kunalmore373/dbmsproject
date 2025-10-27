@@ -1,0 +1,21 @@
+{
+  "name": "habit-tracker-and-analytics-backend",
+  "version": "1.0.0",
+  "description": "Backend for Habit Tracker and Analytics application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.6.5",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
